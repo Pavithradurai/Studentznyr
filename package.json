@@ -1,9 +1,9 @@
 {
   "name": "jitsi-meet-electron",
-  "version": "1.0.4",
-  "description": "Electron application for Jitsi Meet",
+  "version": "1.0.5",
+  "description": "ZNYR Student App",
   "main": "./build/main.js",
-  "productName": "Jitsi Meet",
+  "productName": "ZNYR Student App",
   "scripts": {
     "start": "webpack --config ./webpack.main.js --mode development && concurrently \"npm:watch\" \"electron ./build/main.js\"",
     "clean": "rm -rf node_modules build dist",
@@ -131,6 +131,7 @@
     "react": "next",
     "react-bootstrap": "^1.0.1",
     "react-compound-timer": "^1.2.0",
+    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "next",
     "react-icons": "^3.10.0",
     "react-jutsu": "^2.1.5",
